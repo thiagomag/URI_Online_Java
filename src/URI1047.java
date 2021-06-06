@@ -24,7 +24,7 @@ public class URI1047 {
                 } else {
                     System.out.printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n", duracaoHora, duracaoMin);
                 }
-            } else if(min1 > min2){
+            } else {
                 int duracaoHora;
                 if(hora1 == hora2){
                     duracaoHora = 24 + hora2 - hora1 - 1;
@@ -34,16 +34,17 @@ public class URI1047 {
                 int duracaoMin = 60 + (min2 - min1);
                 System.out.printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n", duracaoHora, duracaoMin);
             }
-        } else if(hora1 > hora2){
+        } else {
+            int duracaoHora;
+            int duracaoMin;
             if(min2 >= min1){
-                int duracaoHora = 24 + hora2 - hora1;
-                int duracaoMin = min2 - min1;
-                System.out.printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n", duracaoHora, duracaoMin);
-            } else if (min1 > min2){
-                int duracaoHora = 24 + hora2 - hora1 - 1;
-                int duracaoMin = 60 + (min2 - min1);
-                System.out.printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n", duracaoHora, duracaoMin);
+                duracaoHora = 24 + hora2 - hora1;
+                duracaoMin = min2 - min1;
+            } else {
+                duracaoHora = 24 + hora2 - hora1 - 1;
+                duracaoMin = 60 + (min2 - min1);
             }
+            System.out.printf("O JOGO DUROU %d HORA(S) E %d MINUTO(S)\n", duracaoHora, duracaoMin);
         }
     }
 }
