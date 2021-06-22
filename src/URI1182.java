@@ -16,7 +16,7 @@ public class URI1182 {
             soma += doubles[n];
         }
         if (c.equals("S")) {
-            System.out.printf("%.1f", soma);
+            System.out.printf("%.1f\n", soma);
         } else {
             System.out.printf("%.1f\n", soma/mat.length);
         }

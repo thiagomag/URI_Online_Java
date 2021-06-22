@@ -20,7 +20,7 @@ public class URI1184 {
             }
         }
         if (c.equals("S")) {
-            System.out.printf("%.1f", soma);
+            System.out.printf("%.1f\n", soma);
         } else {
             System.out.printf("%.1f\n", soma/count);
         }

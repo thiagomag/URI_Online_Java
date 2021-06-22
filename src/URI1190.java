@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class URI1183 {
+public class URI1190 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String c = input.nextLine();
@@ -13,7 +13,7 @@ public class URI1183 {
         double count = 0;
         for (int i = 0; i < mat.length; i++) {
             for (int j = 0; j < mat[i].length; j++) {
-                if (j > i){
+                if (j > i && i + j > mat.length - 1) {
                     soma += mat[i][j];
                     count++;
                 }
@@ -22,7 +22,7 @@ public class URI1183 {
         if (c.equals("S")) {
             System.out.printf("%.1f\n", soma);
         } else {
-            System.out.printf("%.1f\n", soma/count);
+            System.out.printf("%.1f\n", soma / count);
         }
     }
 
