@@ -7,10 +7,10 @@ public class URI1154 {
     }
 
     private static void mediaIdades(Scanner input) {
-        int idade = input.nextInt();;
+        int idade = input.nextInt();
         double soma = 0;
         double count = 0;
-        while (idade >= 0){
+        while (idade > 0){
             soma += idade;
             count++;
             idade = input.nextInt();

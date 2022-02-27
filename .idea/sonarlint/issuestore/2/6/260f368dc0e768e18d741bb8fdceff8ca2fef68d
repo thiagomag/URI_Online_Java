@@ -1,0 +1,8 @@
+
+O
+java:S1854	"9Remove this useless assignment to local variable "total".(ΔΩÒª
+@
+java:S1481	"*Remove this unused "total" local variable.(ΔΩÒª
+l
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(‡κνόÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‡κνόÿÿÿÿ

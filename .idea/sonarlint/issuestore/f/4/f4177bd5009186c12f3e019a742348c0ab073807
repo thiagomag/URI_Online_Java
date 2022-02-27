@@ -1,0 +1,9 @@
+
+:
+java:S1659"Declare "i" on a separate line.(³ Ãºüÿÿÿÿ
+:
+java:S1659"Declare "j" on a separate line.(³ Ãºüÿÿÿÿ
+g
+java:S3457	"Q%n should be used in place of \n to produce the platform-specific line separator.(ñµÆÏ
+N	java:S106	"9Replace this use of System.out or System.err by a logger.(ñµÆÏ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ Ãºüÿÿÿÿ
