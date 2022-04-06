@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class URI1962 {
+public class URI1963 {
     public static void main(String[] args) {  
         Scanner input = new Scanner(System.in);
         var p1 = input.nextDouble();
